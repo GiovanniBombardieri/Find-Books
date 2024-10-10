@@ -1,0 +1,12 @@
+{
+  "name": "find-books",
+  "version": "1.0.0",
+  "description": "<a id=\"readme-top\"></a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
