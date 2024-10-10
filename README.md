@@ -11,7 +11,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/GiovanniBombardieri/Find-Books">
-    <img src="assets/img/book.png" alt="Logo" width="80" height="80">
+    <img src="src/img/book-icon.ico" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Read More!</h3>
