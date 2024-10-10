@@ -48,8 +48,7 @@ The application uses the library provided by Open Library, calling data through 
 
 * ![html-5](https://github.com/user-attachments/assets/7a9e8644-056d-409d-868f-d00bb539ad89) HTML
 * ![cssLogo](https://github.com/user-attachments/assets/7a4bdbdb-2eb3-4bd6-90e8-315ad8c41b70) CSS
-* ![sass](https://github.com/user-attachments/assets/24e2544d-eb1e-4f29-abd7-d99ec2419cdf) Sass
-* ![bootstrap](https://github.com/user-attachments/assets/43964990-0277-4bb2-b277-a13447932e12) Bootstrap
+* ![Tailwind-CSS](https://github.com/user-attachments/assets/43964990-0277-4bb2-b277-a13447932e12) Tailwind CSS
 * ![java-script](https://github.com/user-attachments/assets/f81b6c9a-1964-4004-aa54-e44b0101d9cb) Javascript
 
 <p align="right">(<a href="#start">back to top</a>)</p>
