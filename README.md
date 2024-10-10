@@ -4,7 +4,6 @@
 ![Github issues](https://img.shields.io/github/issues/giovanniBombardieri/Find-Books)
 ![GitHub forks](https://img.shields.io/github/forks/giovanniBombardieri/Find-Books?style=flat)
 ![Github stars](https://img.shields.io/github/stars/giovanniBombardieri/Find-Books?style=flat&color=%23EF2D5E)
-![Github license](https://img.shields.io/github/license/giovanniBombardieri/Find-Books)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/giovanni-bombardieri-13ba7021b/)
 
