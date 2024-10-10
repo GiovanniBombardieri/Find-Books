@@ -4,7 +4,7 @@
   "description": "<a id=\"readme-top\"></a>",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack server --mode=production",
+    "dev": "webpack server --mode=development",
     "build": "webpack --mode=production",
     "build:dev": "webpack --mode=development"
   },
