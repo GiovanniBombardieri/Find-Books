@@ -6,3 +6,8 @@ html,
 body {
   height: 100%;
 }
+
+td {
+  border: 1px solid #64748b;
+  padding: 0.5rem;
+}
