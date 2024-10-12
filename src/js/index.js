@@ -43,6 +43,13 @@ genre.addEventListener("keypress", function (e) {
   }
 });
 
+function readDescription() {
+  const titleId = document.querySelector("#titleId");
+  titleId.addEventListener("click", () => {
+    dialog.showModal();
+  });
+}
+
 // Event to reset
 genre.addEventListener("focus", () => {
   bodyTable.innerHTML = "";
