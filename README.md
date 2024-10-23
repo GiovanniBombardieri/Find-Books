@@ -28,8 +28,8 @@
   </p>
 </div>
 
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 <img width="1477" alt="Screen Find Books" src="https://github.com/user-attachments/assets/96276542-542d-4c4f-ae57-b004d8256102" align="center">
@@ -44,16 +44,19 @@ The application uses the library provided by Open Library, calling data through 
 <p align="right">(<a href="#start">back to top</a>)</p>
 
 <!-- BUILT WITH -->
+
 ### Built With
 
-* ![html-5](https://github.com/user-attachments/assets/7a9e8644-056d-409d-868f-d00bb539ad89) HTML
-* ![cssLogo](https://github.com/user-attachments/assets/7a4bdbdb-2eb3-4bd6-90e8-315ad8c41b70) CSS
-* ![tailwindcss](https://github.com/user-attachments/assets/23a93f9e-7434-4531-9cd9-90c3a00f8192) Tailwind CSS
-* ![java-script](https://github.com/user-attachments/assets/f81b6c9a-1964-4004-aa54-e44b0101d9cb) Javascript
+- ![html-5](https://github.com/user-attachments/assets/7a9e8644-056d-409d-868f-d00bb539ad89) HTML
+- ![cssLogo](https://github.com/user-attachments/assets/7a4bdbdb-2eb3-4bd6-90e8-315ad8c41b70) CSS
+- ![tailwindcss](https://github.com/user-attachments/assets/23a93f9e-7434-4531-9cd9-90c3a00f8192) Tailwind CSS
+- ![java-script](https://github.com/user-attachments/assets/f81b6c9a-1964-4004-aa54-e44b0101d9cb) Javascript
+- ![axios](https://github.com/user-attachments/assets/f81b6c9a-1964-4004-aa54-e44b0101d9cb) Javascript
 
 <p align="right">(<a href="#start">back to top</a>)</p>
 
 <!-- CONTACT -->
+
 ## Contact
 
 Giovanni - [@linkedin](https://www.linkedin.com/in/giovanni-bombardieri-13ba7021b/) - g.bombardieri06@gmail.com
