@@ -51,7 +51,24 @@ The application uses the library provided by Open Library, calling data through 
 - ![cssLogo](https://github.com/user-attachments/assets/7a4bdbdb-2eb3-4bd6-90e8-315ad8c41b70) CSS
 - ![tailwindcss](https://github.com/user-attachments/assets/23a93f9e-7434-4531-9cd9-90c3a00f8192) Tailwind CSS
 - ![java-script](https://github.com/user-attachments/assets/f81b6c9a-1964-4004-aa54-e44b0101d9cb) Javascript
-- ![axios](https://github.com/user-attachments/assets/f81b6c9a-1964-4004-aa54-e44b0101d9cb) Javascript
+- ![axios-logo](https://github.com/user-attachments/assets/56570be8-c67a-4cab-bbe4-ff64bde3bf24) Axios
+
+<p align="right">(<a href="#start">back to top</a>)</p>
+
+<!-- INSTALLATION -->
+
+#### Installation
+```
+npm install
+```
+#### Dev Server
+```
+npm run start
+```
+#### Build
+```
+npm run build
+```
 
 <p align="right">(<a href="#start">back to top</a>)</p>
 
