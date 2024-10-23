@@ -91,19 +91,23 @@
         </div>
       </div>
     </header>
+
     <main
       class="w-10/12 min-h-[84%] mx-auto flex items-center flex-col justify-start pt-10 dark:bg-slate-100 rounded-2xl dark:text-gray-800 bg-slate-800 text-gray-200"
     >
+      <!-- Title -->
       <div>
         <h1 class="text-3xl font-semibold tracking-wider m-5">
           Write here your favorite genre
         </h1>
       </div>
 
+      <!-- Search input && button -->
       <div
         class="flex items-center max-w-md mx-auto bg-white rounded-lg"
         x-data="{ search: '' }"
       >
+        <!-- Search input -->
         <div class="w-full">
           <input
             type="search"
@@ -113,6 +117,7 @@
             x-model="search"
           />
         </div>
+        <!-- Search button -->
         <div>
           <button
             type="submit"
@@ -139,8 +144,9 @@
         </div>
       </div>
 
-      <div id="container" class="w-full my-10">
-        <table class="hidden min-w-[80%] border-collapse mx-auto" id="table">
+      <!-- Search result table -->
+      <div id="container" class="hidden w-full my-10">
+        <table class="min-w-[80%] border-collapse mx-auto" id="table">
           <thead
             class="dark:bg-slate-700 dark:text-white bg-white text-gray-800"
           >
@@ -160,23 +166,194 @@
             id="body-table"
             class="dark:bg-slate-100 dark:text-gray-800 bg-white text-gray-800"
           >
-            <!-- <tr>
+            <tr>
               <td class="border dark:border-slate-500 border-slate-800 p-2">
                 1
               </td>
               <td class="border dark:border-slate-500 border-slate-800 p-2">
-                Caio
+                George Orwell
               </td>
               <td
-                class="border dark:border-slate-500 border-slate-800 p-2"
-                id="title-td"
+                class="border dark:border-slate-500 border-slate-800 p-2 hover:cursor-pointer"
+                id="title-id1"
               >
-                Dorian Gray
+                1984
               </td>
-            </tr> -->
+              <td
+                class="hidden border dark:border-slate-500 border-slate-800 p-2 hover:cursor-pointer"
+                id="description-title-1"
+              >
+                6 giugno 1949 esce 1984, il capolavoro dello scrittore George
+                Orwell: un romanzo distopico che racconta la vita in tre
+                superstati perennemente in guerra tra loro, e organizzati in
+                modo da controllare ogni pensiero e azione dei propri sudditi.
+                Secondo la visione di Orwell, il pianeta è suddiviso in Oceania,
+                Eurasia ed Estasia. La città principale dell'Oceania è Londra
+                governata dal Grande Fratello, onnisciente e infallibile che
+                nessuno ha mai visto. I suoi occhi sono le telecamere con le
+                quali spia la vita dei cittadini. Orwell muore nel 1950 e il suo
+                1984 è considerato un’opera profetica che ha previsto con almeno
+                cinquant'anni di anticipo cosa sarebbe successo con l’avvento di
+                un mondo dominato dalla tecnologia. L'incipit del libro: Era una
+                luminosa e fredda giornata d’aprile, e gli orologi battevano
+                tredici colpi. Winston Smith, tentando di evitare le terribili
+                raffiche di vento col mento affondato nel petto, scivolò in
+                fretta dietro le porte di vetro degli Appartamenti Vittoria: non
+                così in fretta tuttavia, da impedire che una folata di polvere
+                sabbiosa entrasse con lui. L’ingresso emanava un lezzo di cavolo
+                bollito e di vecchi e logori stoini. A una delle estremità era
+                attaccato un manifesto a colori, troppo grande per poter essere
+                messo all’interno. Vi era raffigurato solo un volto enorme,
+                grande più di un metro, il volto di un uomo di circa
+                quarantacinque anni, con folti baffi neri e lineamenti severi ma
+                belli. Winston si diresse verso le scale. Tentare con
+                l’ascensore, infatti, era inutile. Perfino nei giorni migliori
+                funzionava raramente e al momento, in ossequio alla campagna
+                economica in preparazione della Settimana dell’Odio, durante le
+                ore diurne l’erogazione della corrente elettrica veniva
+                interrotta.
+              </td>
+            </tr>
+            <tr>
+              <td class="border dark:border-slate-500 border-slate-800 p-2">
+                2
+              </td>
+              <td class="border dark:border-slate-500 border-slate-800 p-2">
+                Gabriel Garcia Marquez
+              </td>
+              <td
+                class="border dark:border-slate-500 border-slate-800 p-2 hover:cursor-pointer"
+                id="title-id2"
+              >
+                Cent'anni di solitudine
+              </td>
+              <td
+                class="hidden border dark:border-slate-500 border-slate-800 p-2 hover:cursor-pointer"
+                id="description-title-2"
+              >
+                Romanzo dello scrittore colombiano Gabriel García Márquez -
+                premio Nobel per la letteratura nel 1982 - pubblicato nel 1967.
+                Innanzitutto è la storia della antica famiglia "centenaria" dei
+                Buendía partendo da José Arcadio, fondatore del villaggio di
+                Macondo, della moglie Úrsula Iguarán, di un eroe perdente, il
+                colonnello Aureliano. Ma è anche la storia di nascite prodigiose
+                e "purezze inconcepibili" (ciò che accade a Remedios la Bella,
+                amata dal Colonnello, dotata di capacità straordinarie come
+                quella di levitare); delle scoperte scientifiche di José Arcadio
+                desideroso di circumnavigare il globo da Macondo a Macondo; è la
+                storia del villaggio-cittadina che in poche decine di anni
+                arriverà alla dissoluzione. Gli abitanti di Macondo cercano in
+                ogni modo di riscattarsi dall’isolamento, di avere relazioni con
+                il resto del mondo, l’altrove. Ma dall’universo che li circonda
+                arrivano malattie, domini, sfruttamenti, sconvolgimenti e uomini
+                e donne che nulla hanno a che vedere con gli abitanti locali e
+                che stravolgeranno la storia della cittadina. Di tutta la
+                famiglia, una spiegazione verrà data solo ad Aureliano
+                Babilonia, l’ultimo dei Buendía, che sarà in grado di decifrare
+                le pergamene dello zingaro Melquíades nelle quali si trova, con
+                cent’anni di anticipo, la fine di un paese e di una famiglia,
+                perché “il futuro non esiste, né mai è esistito sotto il cielo
+                di Macondo”. Márquez ci consegna il suo più forte messaggio con
+                grande genialità: raccontandoci una favola per adulti. Un mondo
+                di lucida follia, nel quale entriamo come Alice nel Paese delle
+                Meraviglie e non dobbiamo stupirci se qui tutto può succedere.
+              </td>
+            </tr>
+            <tr>
+              <td class="border dark:border-slate-500 border-slate-800 p-2">
+                3
+              </td>
+              <td class="border dark:border-slate-500 border-slate-800 p-2">
+                Giovanni Boccaccio
+              </td>
+              <td
+                class="border dark:border-slate-500 border-slate-800 p-2 hover:cursor-pointer"
+                id="title-id3"
+              >
+                Il Decamerone
+              </td>
+              <td
+                class="hidden border dark:border-slate-500 border-slate-800 p-2 hover:cursor-pointer"
+                id="description-title-3"
+              >
+                Il Decameron, l’opera più celebre di Giovanni Boccaccio, viene
+                composto tra il 1349 e il 1353, anche se probabilmente la
+                composizione e la circolazione autonoma di alcune novelle -
+                soprattutto quelle delle prime tre giornate - possono essere
+                antecedenti. Il Decameron racconta la vicenda di dieci giovani
+                che, per sfuggire alla peste del 1348, si ritirano in una villa
+                di campagna, dove trascorrono dieci giornate narrandosi
+                vicendevolmente delle novelle per ingannare piacevolmente il
+                tempo 1.
+              </td>
+            </tr>
+            <tr>
+              <td class="border dark:border-slate-500 border-slate-800 p-2">
+                4
+              </td>
+              <td class="border dark:border-slate-500 border-slate-800 p-2">
+                Fedor Dostoevskij
+              </td>
+              <td
+                class="border dark:border-slate-500 border-slate-800 p-2 hover:cursor-pointer"
+                id="title-id4"
+              >
+                Delitto e castigo
+              </td>
+              <td
+                class="hidden border dark:border-slate-500 border-slate-800 p-2 hover:cursor-pointer"
+                id="description-title-4"
+              >
+                Pubblicato nel 1866, Delitto e castigo è il resoconto
+                psicologico di un crimine. Raskol’nikov, povero studente di
+                Pietroburgo, per emanciparsi da una miseria opprimente non esita
+                a uccidere una vecchia usuraia e la sua incolpevole sorella, per
+                poi derubarle. Il delitto ha un profondo valore simbolico:
+                l’usuraia incarna l’iniquità del mondo e col suo gesto
+                scellerato il giovane vuole mettere alla prova quella capacità
+                di infrangere la legge che è propria dell’«uomo superiore»,
+                libero e svincolato da ogni morale. Ansia di sublime e fascino
+                dell’abiezione, volontà di ferire e desiderio di espiare
+                lacerano il cuore e la mente dell’omicida. Combattuto tra il
+                ricordo ossessivo del misfatto e il timore angoscioso di venire
+                scoperto, Raskol’nikov finisce col diventare l’implacabile
+                giudice di sé stesso, fino alla catarsi finale: l’ammutolire
+                della ragione, il palesarsi improvviso di una rivelazione che
+                conduce ad accettare il castigo come destino.
+              </td>
+            </tr>
+            <tr>
+              <td class="border dark:border-slate-500 border-slate-800 p-2">
+                5
+              </td>
+              <td class="border dark:border-slate-500 border-slate-800 p-2">
+                Omero
+              </td>
+              <td
+                class="border dark:border-slate-500 border-slate-800 p-2 hover:cursor-pointer"
+                id="title-id5"
+              >
+                Odissea
+              </td>
+              <td
+                class="hidden border dark:border-slate-500 border-slate-800 p-2 hover:cursor-pointer"
+                id="description-title-5"
+              >
+                Poema in 24 libri in esametri. Narra il ritorno di
+                Odisseo/Ulisse a Itaca e la riconquista del regno, dopo la
+                caduta di Ilio. L'azione, che dura trentaquattro giorni, si
+                sviluppa intorno a due trame parallele, le avventure di Telemaco
+                alla ricerca del padre (Telemachia) e il racconto delle
+                peregrinazioni di Odisseo, che si ricongiungono quando entrambi
+                ritornano in patria e insieme compiono la vendetta sui Proci
+                (pretendenti alla mano di Penelope).
+              </td>
+            </tr>
           </tbody>
         </table>
       </div>
+
+      <!-- Dialog -->
       <dialog
         class="w-screen h-screen place-items-center bg-black bg-opacity-60 backdrop-blur-sm rounded-3xl"
       >
@@ -192,7 +369,7 @@
           <div
             class="h-[90%] flex items-center justify-between p-4 md:p-5 rounded-t dark:border-gray-600 overflow-scroll"
           >
-            <p class="h-full">
+            <p class="h-full" id="dialog-text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
               velit at eos blanditiis officiis praesentium sed maiores cum
               adipisci cumque voluptatum, animi voluptatibus eius quia neque,
@@ -271,7 +448,6 @@
           </div>
         </div>
       </dialog>
-      <button>Show the dialog</button>
     </main>
 
     <footer class="min-h-[8%] text-center flex items-center justify-center">
