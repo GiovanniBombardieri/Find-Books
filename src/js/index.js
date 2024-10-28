@@ -5,6 +5,7 @@ import "../css/style.css";
 const btn = document.querySelector("#btn");
 const genre = document.querySelector("#genre-input");
 const bodyTable = document.querySelector("#body-table");
+const table = document.querySelector("#table");
 const dialog = document.querySelector("dialog");
 const closeButton = document.querySelector("dialog button");
 
@@ -54,8 +55,6 @@ function getTitle() {
       `http://openlibrary.org/subjects/${genre.value.toLowerCase()}.json?limit=20`
     )
     .then(function (response) {
-      console.log(response);
-
       let i = 1;
       response.data.works.forEach((element) => {
         // Create element for the table
@@ -66,24 +65,25 @@ function getTitle() {
 
         // Assign the right element of the array
         workNumber.innerHTML = i;
-        author.innerHTML = element.author;
+        author.innerHTML = element.authors[0].name;
         title.innerHTML = element.title;
 
         // Display the table
+        table.classList.remove("hidden");
         bodyTable.appendChild(tableRow);
         tableRow.appendChild(workNumber);
         tableRow.appendChild(author);
         tableRow.appendChild(title);
 
+        title.classList.add("hover:cursor-pointer");
+
         i++;
 
         title.addEventListener("click", () => {
-          console.log(element.key);
-
           axios
             .get(`http://openlibrary.org${element.key}.json`)
             .then(function (response) {
-              console.log(response.data.description.value);
+              console.log(response);
               const key = "value";
               if (response.data.description[key]) {
                 const description = response.data.description.value;
