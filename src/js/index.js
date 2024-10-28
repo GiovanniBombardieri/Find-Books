@@ -52,7 +52,7 @@ genre.addEventListener("focus", () => {
 function getTitle() {
   axios
     .get(
-      `http://openlibrary.org/subjects/${genre.value.toLowerCase()}.json?limit=20`
+      `https://openlibrary.org/subjects/${genre.value.toLowerCase()}.json?limit=20`
     )
     .then(function (response) {
       let i = 1;
@@ -81,7 +81,7 @@ function getTitle() {
 
         title.addEventListener("click", () => {
           axios
-            .get(`http://openlibrary.org${element.key}.json`)
+            .get(`https://openlibrary.org${element.key}.json`)
             .then(function (response) {
               console.log(response);
               const key = "value";
